@@ -1,0 +1,70 @@
+*{
+     margin: 0%;
+}
+video{
+     min-width: 100%;
+     min-height: 100%;
+     margin: 0%;
+     z-index: -1;
+}
+header{
+     position: fixed;
+     min-width: 100%;
+     height: 20%;
+     background-color: aqua;
+     margin: 0%;
+     text-align: center;
+     border-radius:0% 0% 100% 100%;
+     box-shadow: 0px 20px 20px -1px rgba(0, 0, 0, 0.7); 
+   
+}
+input{
+     margin-right: 2px;
+}
+header h1{
+     color: red;
+     margin: 0%;
+     margin-bottom: 10px;
+     position: sticky;
+}
+.loader {
+     display: inline-flex;
+    margin-left: 2px;
+     border: 8px solid blue;
+     border-radius: 100%;
+     border-top: 8px solid white;
+     border-bottom: 8px solid white;
+     width: 30px;
+     height: 30px;
+     animation: spin 2s linear infinite;
+     background-color:inherit;
+   }
+   
+   @keyframes spin {
+     0% { transform: rotate(0deg); }
+     100% { transform: rotate(360deg); }
+   }
+main{
+     text-align: center;
+     min-height: 100%;
+     min-width: 100%;
+     position: relative;
+     top: 200px;
+     margin: 0%;
+     z-index: -1;    
+}
+.createdDiv{
+     border-radius: 20px;
+     height: max-content;
+     width: max-content;
+     padding: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+     box-shadow: 10px 10px 5px lightblue;
+     flex: 2;
+}
+
+#body{
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
